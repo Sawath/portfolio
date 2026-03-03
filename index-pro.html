@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYLLA Sawath - Portfolio</title>
+    <meta name="description" content="Portfolio de SYLLA Sawath - Développeuse Full-Stack spécialisée Data & IA">
+    <meta name="keywords" content="développeur, full-stack, data, IA, portfolio, SYLLA Sawath">
+    <meta name="author" content="SYLLA Sawath">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="SYLLA Sawath - Portfolio">
+    <meta property="og:description" content="Développeuse Full-Stack spécialisée Data & IA">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <span class="logo-text">SS.</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-particles"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Bonjour, je suis</span>
+                        <span class="name">SYLLA Sawath</span>
+                        <span class="role">Développeuse Full-Stack</span>
+                        <span class="specialty">Spécialisée Data & IA</span>
+                    </h1>
+                    <div class="hero-description">
+                        <p class="hero-bio">
+                            Développeuse Full-Stack avec 3 ans d'expérience en conception d'applications web, 
+                            API sécurisées et automatisation de processus. Solide maîtrise de Python, 
+                            architectures backend et bases de données.
+                        </p>
+                        <div class="hero-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Mastère Data & IA</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>3 ans d'expérience</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-search"></i>
+                                <span>Recherche alternance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Me contacter</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <span>Voir mes projets</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="assets/CV_SYLLA_Sawath.pdf" class="btn btn-outline" id="downloadCV">
+                            <span>Télécharger CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="code-title">developer.js</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code>const developer = {
+  name: "SYLLA Sawath",
+  role: "Full-Stack Developer",
+  experience: "3 years",
+  skills: [
+    "Python", "JavaScript", "API",
+    "Data Science", "Machine Learning"
+  ],
+  status: "seeking_alternance",
+  goal: "Data & AI Solutions"
+};</code></pre>
+                        </div>
+                    </div>
+                    <div class="skill-orbs">
+                        <div class="skill-orb">
+                            <div class="orb-content">
+                                <i class="fas fa-code"></i>
+                                <span>Full-Stack</span>
+                            </div>
+                        </div>
+                        <div class="skill-orb">
+                            <div class="orb-content">
+                                <i class="fas fa-database"></i>
+                                <span>Data</span>
+                            </div>
+                        </div>
+                        <div class="skill-orb">
+                            <div class="orb-content">
+                                <i class="fas fa-brain"></i>
+                                <span>IA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Faire défiler</span>
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos</h2>
+                <p class="section-subtitle">Mon parcours et mes motivations</p>
+            </div>
+            <div class="about-content">
+                <div class="about-intro">
+                    <h3>Développeuse passionnée par l'innovation</h3>
+                    <p>
+                        Diplômée d'un Master en Data et IA, je combine expertise technique et vision business 
+                        pour créer des solutions innovantes. Ma passion pour le développement me pousse à 
+                        explorer constamment de nouvelles technologies et à relever des défis complexes.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Innovation</h4>
+                                <p>Toujours à la recherche de solutions créatives et performantes</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Collaboration</h4>
+                                <p>Esprit d'équipe et communication efficace</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Performance</h4>
+                                <p>Focus sur l'optimisation et les résultats</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-stack">
+                        <h4>Mes technologies préférées</h4>
+                        <div class="tech-icons">
+                            <div class="tech-icon">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-icon">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-icon">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Expériences</h2>
+                <p class="section-subtitle">Mon parcours professionnel</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Stage Technicien Informatique</h3>
+                            <span class="timeline-date">Juin 2025 - Août 2025</span>
+                        </div>
+                        <div class="timeline-company">SMRD-BAT 92 Le Bourget, France</div>
+                        <ul class="timeline-achievements">
+                            <li>Assister les employés dans l'utilisation de leurs postes de travail</li>
+                            <li>Accompagner les équipes dans la prise en main de nouveaux logiciels</li>
+                            <li>Assurer le suivi des demandes utilisateurs et remonter les incidents</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Support Technique</span>
+                            <span class="skill-tag">Formation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Client Access and Implementation Support</h3>
+                            <span class="timeline-date">Jan. 2024 - Juil. 2024</span>
+                        </div>
+                        <div class="timeline-company">ECOBANK Cotonou, LI, Benin</div>
+                        <ul class="timeline-achievements">
+                            <li>Assurer le support technique et fonctionnel sur les plateformes digitales</li>
+                            <li>Accompagner 30+ clients entreprises dans l'utilisation des plateformes</li>
+                            <li>Réduire le temps de traitement des demandes de 30 % via scripts Python</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Support Client</span>
+                            <span class="skill-tag">API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Développeuse Web Full-Stack</h3>
+                            <span class="timeline-date">Oct. 2022 - Jan. 2024</span>
+                        </div>
+                        <div class="timeline-company">ERICSSON BENIN Cotonou, LI, Benin</div>
+                        <ul class="timeline-achievements">
+                            <li>Développer une application web responsive adaptée aux besoins clients</li>
+                            <li>Optimiser l'expérience utilisateur (UX) et l'interface utilisateur (UI)</li>
+                            <li>Déployer des solutions sur serveurs Linux avec configuration MySQL</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Full-Stack</span>
+                            <span class="skill-tag">UX/UI</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Développeuse Informatique</h3>
+                            <span class="timeline-date">Mar. 2022 - Sept. 2022</span>
+                        </div>
+                        <div class="timeline-company">SABMA DIGITAL Cotonou, LI, Benin</div>
+                        <ul class="timeline-achievements">
+                            <li>Intégrer des bases de données relationnelles (MySQL, PostgreSQL)</li>
+                            <li>Participer à des projets collaboratifs en méthodologie Agile (Scrum)</li>
+                            <li>Réduire de 30 % les bugs récurrents grâce à une maintenance structurée</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Agile</span>
+                            <span class="skill-tag">Scrum</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Formatrice en Informatique</h3>
+                            <span class="timeline-date">Juin 2021 - Mar. 2022</span>
+                        </div>
+                        <div class="timeline-company">ACADEMIES SERVICES Cotonou, LI, Benin</div>
+                        <ul class="timeline-achievements">
+                            <li>Dispenser des cours de programmation (C, Java) à un public débutant</li>
+                            <li>Animer des formations pour plus de 50 apprenants</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Formation</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Développeuse Back-End</h3>
+                            <span class="timeline-date">Mar. 2021 - Juin 2021</span>
+                        </div>
+                        <div class="timeline-company">RINTIO Cotonou, LI, Benin</div>
+                        <ul class="timeline-achievements">
+                            <li>Développer des applications métier en Java, Python, C et C#</li>
+                            <li>Créer des API REST sécurisées pour la gestion de données sur 5 projets</li>
+                            <li>Mettre en place des tests unitaires pour garantir la fiabilité du code</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">API REST</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Compétences</h2>
+                <p class="section-subtitle">Un éventail de technologies maîtrisées</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="category-title">Langages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C#</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3 class="category-title">Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Symfony</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Flask</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Spring Boot</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Express.js</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="category-title">Front-End</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Vue.js</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="category-title">Base de données</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PostgreSQL</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="category-title">DevOps</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Docker</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">GitLab CI/CD</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="category-title">Outils</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Trello</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Linux</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="category-title">Méthodes</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Agile</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Scrum</span>
+                                <div class="skill-level">
+                                    <div class="skill-dots">
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot filled"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Projets</h2>
+                <p class="section-subtitle">Découvrez mes réalisations</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Video Surveillance</h3>
+                        <p class="project-description">
+                            Système de surveillance vidéo avec streaming en temps réel et détection de mouvement.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Streaming</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Healthguard</h3>
+                        <p class="project-description">
+                            Application de suivi médical avec alertes et rapports de santé automatisés.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            Plateforme e-commerce complète avec panier, paiement et gestion des stocks.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Discutons de votre prochain projet</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/sawath-sylla-157724200" target="_blank">sawath-sylla-157724200</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Sawath" target="_blank">github.com/Sawath</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:syllasawath28@gmail.com">syllasawath28@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <a href="tel:0759382493">07 59 38 24 93</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Envoyer</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2024 SYLLA Sawath. Tous droits réservés.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sawath-sylla-157724200" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Sawath" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:syllasawath28@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("4-hh1fvdG8WkeDByS");
+        })();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
